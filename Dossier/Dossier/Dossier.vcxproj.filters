@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\File">
+      <UniqueIdentifier>{9392d759-954b-427a-b955-00fb41c423f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{03a8efc5-eb77-4291-bcdc-5db753bd5bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Msg">
+      <UniqueIdentifier>{a8f9efb1-713f-4d79-bbf3-1e8d6d89f4b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Langue">
+      <UniqueIdentifier>{46e97070-b1e3-429a-95c4-d192d7050fb1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\Lexique\Lexique.c">
+      <Filter>Source Files\Langue</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Gestion\Gestion.c">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Interface.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\Constantes\constantes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Lexique\Lexique.h">
+      <Filter>Source Files\Langue</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Gestion\Gestion.h">
+      <Filter>Source Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Fichiers\Fichiers.h">
+      <Filter>Source Files\File</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
